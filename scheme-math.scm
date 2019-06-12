@@ -3,6 +3,7 @@
 #reader(lib "htdp-advanced-reader.ss" "lang")((modname scheme-math) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #t #t none #f () #f)))
 (define PI 3.14159265359)
 (define EULERS_NUMBER 2.71828182845)
+(define GOLDEN_RATIO 1.61803398875)
 
 (define (square n) 
   (* n n))
