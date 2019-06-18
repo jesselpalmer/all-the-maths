@@ -12,3 +12,6 @@
   (if (< n 0)
     (- n)
     n))
+
+(define (cube n)
+  (* n n n))
