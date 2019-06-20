@@ -15,3 +15,9 @@
 
 (define (cube n)
   (* n n n))
+
+(define (rectangle-area l w)
+  (* l w))
+
+(define (square-area w)
+  (square w))
