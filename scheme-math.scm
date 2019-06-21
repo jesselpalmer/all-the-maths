@@ -21,3 +21,6 @@
 
 (define (square-area w)
   (square w))
+
+(define (triangle-area b w)
+  (/ (* b w) 2))
