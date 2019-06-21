@@ -24,3 +24,21 @@
 
 (define (triangle-area b w)
   (/ (* b w) 2))
+
+;cube tests
+(check-expect (cube 3) 27)
+(check-expect (cube 0.13) 0.002197)
+(check-expect (cube -93) -804357)
+
+;square tests
+(check-expect (square 5) 25)
+(check-expect (square .3) 0.09)
+(check-expect (square -43) 1849)
+
+;absolute tests
+(check-expect (absolute -10) 10)
+(check-expect (absolute 50) 50)
+
+;rectangle-area tests
+(check-expect (rectangle-area 4 2) 8)
+(check-expect (rectangle-area 3 121) 363)
