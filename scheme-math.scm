@@ -45,3 +45,6 @@
 
 ;square-area tests
 (check-expect (square-area 32) 1024)
+
+;triangle-area tests
+(check-expect (triangle-area 3 2) 3)
