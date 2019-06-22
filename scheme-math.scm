@@ -42,3 +42,6 @@
 ;rectangle-area tests
 (check-expect (rectangle-area 4 2) 8)
 (check-expect (rectangle-area 3 121) 363)
+
+;square-area tests
+(check-expect (square-area 32) 1024)
