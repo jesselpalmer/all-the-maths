@@ -6,7 +6,7 @@ orbs:
 workflows:
   Welcome:
     jobs:
-      - welcome/run
+      welcome/run
       build:
         steps:
-          - run: lein test
+          run: lein test
