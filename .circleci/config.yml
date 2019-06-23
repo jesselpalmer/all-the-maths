@@ -7,6 +7,3 @@ workflows:
   Welcome:
     jobs:
       welcome/run
-      build:
-        steps:
-          run: lein test
