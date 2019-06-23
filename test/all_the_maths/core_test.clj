@@ -23,4 +23,4 @@
     (is (= (rectangle-area 3 121) 363)))
   (testing "triangle-area"
     (is (= (triangle-area 3 2) 3))
-    (is (= (triangle-area 12 24) 18))))
+    (is (= (triangle-area 12 24) 144))))
