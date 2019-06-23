@@ -1,14 +1,10 @@
 # all-the-maths
 
-A Clojure library designed to ... well, that part is up to you.
-
-## Usage
-
-FIXME
+A Clojure library that contains handy math functions
 
 ## License
 
-Copyright © 2019 FIXME
+Copyright © 2019 Jesse Palmer
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
