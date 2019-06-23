@@ -1,0 +1,5 @@
+(ns all-the-maths.constants)
+
+(def PI 3.14159265359)
+(def EULERS_NUMBER 2.71828182845)
+(def GOLDEN_RATIO 1.61803398875)
