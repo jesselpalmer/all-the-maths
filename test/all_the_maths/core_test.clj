@@ -23,4 +23,7 @@
     (is (= (rectangle-area 3 121) 363)))
   (testing "triangle-area"
     (is (= (triangle-area 3 2) 3))
-    (is (= (triangle-area 12 24) 144))))
+    (is (= (triangle-area 12 24) 144)))
+  (testing "circle-area"
+    (is (= (circle-area 5) 78.53981633975))
+    (is (= (circle-area 17) 907.92027688751))))

@@ -1,4 +1,5 @@
-(ns all-the-maths.core)
+(ns all-the-maths.core
+  (:require [all-the-maths.constants :refer :all]))
 
 (defn square 
   [n]
@@ -25,3 +26,7 @@
 (defn triangle-area
   [b h]
   (/ (* b h) 2))
+
+(defn circle-area
+  [r]
+  (* PI (square r)))
