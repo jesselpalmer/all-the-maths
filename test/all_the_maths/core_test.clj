@@ -26,4 +26,7 @@
     (is (= (triangle-area 12 24) 144)))
   (testing "circle-area"
     (is (= (circle-area 5) 78.53981633975))
-    (is (= (circle-area 17) 907.92027688751))))
+    (is (= (circle-area 17) 907.92027688751)))
+  (testing "trapezoid-area"
+    (is (= (trapezoid-area 10 6 8) 64))
+    (is (= (trapezoid-area 7.5 4.9 3.3) 20.46))))
