@@ -17,7 +17,8 @@
     (is (= (absolute -93) 93)))
   (testing "square-area"
     (is (= (square-area 5) 25))
-    (is (= (square-area 10) 100)))
+    (is (= (square-area 10) 100))
+    (is (= (square-area 44.232) 1956.469824)))
   (testing "rectangle-area"
     (is (= (rectangle-area 4 2) 8))
     (is (= (rectangle-area 3 121) 363)))
