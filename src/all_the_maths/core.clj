@@ -1,9 +1,9 @@
 (ns all-the-maths.core
   (:require [all-the-maths.constants :refer :all]))
 
-(defn square 
+(defn square
   [n]
-  (* n n))
+  (if (number? n) (* n n)))
 
 (defn cube
   [n]
