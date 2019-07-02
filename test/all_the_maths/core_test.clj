@@ -6,9 +6,7 @@
   (testing "square"
     (is (= (square 5) 25))
     (is (= (square 0.3) 0.09))
-    (is (= (square -43) 1849))
-    (is (= (square 'a') nil))
-    (is (= (square false) nil)))
+    (is (= (square -43) 1849)))
   (testing "cube"
     (is (= (cube 3) 27))
     (is (= (cube 0.13) 0.002197))

@@ -3,7 +3,7 @@
 
 (defn square
   [n]
-  (if (number? n) (* n n)))
+  (* n n))
 
 (defn cube
   [n]
