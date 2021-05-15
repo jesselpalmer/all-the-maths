@@ -3,7 +3,7 @@
 
 (defn square
   [n]
-  (* n n))
+  (if (number? n) (* n n)))
 
 (defn cube
   [n]
@@ -34,3 +34,4 @@
 (defn trapezoid-area
   [a b h]
   (* (/ (+ a b) 2) h))
+  
