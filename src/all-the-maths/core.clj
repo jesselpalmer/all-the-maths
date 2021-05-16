@@ -34,3 +34,4 @@
 (defn trapezoid-area
   [a b h]
   (* (/ (+ a b) 2) h))
+  

@@ -7,16 +7,19 @@
     (is (= (square 5) 25))
     (is (= (square 0.3) 0.09))
     (is (= (square -43) 1849))
+    (is (= (square -0.53) 0.28090000000000004)))
     (is (= (square 'a') nil))
     (is (= (square false) nil)))
   (testing "cube"
     (is (= (cube 3) 27))
     (is (= (cube 0.13) 0.002197))
-    (is (= (cube -93) -804357)))
+    (is (= (cube -93) -804357))
+    (is (= (cube -0.74) -0.405224)))
   (testing "absolute"
     (is (= (absolute 10) 10))
-    (is (= (absolute -0.2313) 0.2313))
-    (is (= (absolute -93) 93)))
+    (is (= (absolute 6.59) 6.59))
+    (is (= (absolute -88) 88))
+    (is (= (absolute -0.2414) 0.2414)))
   (testing "square-area"
     (is (= (square-area 5) 25))
     (is (= (square-area 10) 100))
