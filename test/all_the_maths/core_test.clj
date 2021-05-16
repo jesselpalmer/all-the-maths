@@ -35,4 +35,5 @@
     (is (= (circle-area 17) 907.92027688751)))
   (testing "trapezoid-area"
     (is (= (trapezoid-area 10 6 8) 64))
-    (is (= (trapezoid-area 7.5 4.9 3.3) 20.46))))
+    (is (= (trapezoid-area 7.5 4.9 3.3) 20.46)))
+  
